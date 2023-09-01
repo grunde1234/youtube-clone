@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>youtube-clone</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="shortcut icon" href="icons/youtube.png">
+</head>
+<body> 
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/3you.png">
+
+      <img class="youtube-logo" src="icons/4you.png">
+    </div>
+
+    <!--put positon absolute inside position relative-->
+
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="search">
+      <button class="search-button" >
+        <img class="search-icon" src="icons/5you.png">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-button" >
+        <img class="voice-icon" src="icons/2you.png">
+        <div class="tooltip">Search with voice</div>
+      </button>
+    </div> 
+
+    <div class="right-section">
+
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/1you.png">
+        <div class="tooltip">create</div>
+      </div>
+
+      <div class="youtube-apps-container">
+        <img class="youtube-apps " src="icons/6you.png">
+        <div class="tooltip">create</div>
+      </div>
+      
+      <div class="notifications-icon-contianer">
+        
+        <img class="notifications-icon" src="icons/7you.png">
+        <div class="tooltip">create</div>
+      </div>
+      <div class="notifications-count">3</div>
+      
+      <img class="user-pic" src="pic/10.jpg">
+    </div>
+
+   
+  </header>
+
+  <nav class="sidebar">
+
+    <div class="sidebar-link">
+      <img src="icons/4.png">
+      <div>HOME</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/1.png">
+      <div>EXPLORE</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/2.png">
+      <div>SUBSCRIPTION</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/5.png">
+      <div>LIBRARY</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/6.png">
+      <div>SHORTS</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/3.png">
+      <div>HISTORY</div>
+    </div>
+
+  </nav>
+
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <a href="https://youtu.be/hl1U0bxTHbY?si=VyP3zDsC6oygr9_M">
+        
+          <div class="thumbnail-row">
+          <img class="thumbnail" alt="rick" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/hl1U0bxTHbY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLAavn1ThMrmqb8uw6H5Wp68W13gXg">
+          <div class="video-time">1:36</div>
+            </div>
+            <!--the grid aligns the vertical or horizontal structure for "divs"-->
+
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic"  draggable="false" alt="" width="24" src="https://yt3.ggpht.com/aBCeBf7Qlr3OwsS-RB3Mgql_Vyv3Lt0mJmiHJJI0kB2RJq_U3JxQPCzdtDWEXR9KXtU_DKlI=s68-c-k-c0x00ffffff-no-rj">
+          </div>
+          <div class="video-info">
+              <p class="video-title">
+              Rick and Morty Season 4-official trailer
+            </p>
+             
+            <p class="video-author">
+              Rick
+            </p>
+          
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>
+        </div>
+          </a>
+        </div>
+      
+      
+        <div class="video-preview">
+          
+          <a href="https://youtu.be/iGWyN2Lq36M?si=RbaoQEwVNYSgVcSl">
+          <div class="thumbnail-row">
+          <img class="thumbnail" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/iGWyN2Lq36M/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBlrqSJX5xMX49-CZIDnPLe5GpZaQ">
+          <div class="video-time">24:06</div>
+            </div>
+            
+            <div class="video-info-grid" >
+          <div class="channel-pic">
+            <img class="profile-pic" draggable="false" class="style-scope yt-img-shadow" alt="" width="24" src="https://yt3.ggpht.com/ytc/AOPolaSBLGN39TsA97jRweRI1BxRJjey6JYmm-b7zo0nMA=s68-c-k-c0x00ffffff-no-rj">
+            
+          </div>
+          
+          <div class="video-info">
+            <p class="video-title">
+             JUJUTSU KAISEN Ep. 1-Ryomen sukuna
+            </p>
+             
+            <p class="video-author">
+              Crunchyroll collection
+            </p>
+          
+            <p class="video-stats">
+              4.4M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+          </a>
+        </div>
+      
+        <div class="video-preview">
+
+        <a href="https://youtu.be/shW9i6k8cB0?si=6rOL8NjL7k6C2i5z" >
+          <div class="thumbnail-row">
+          <img class="thumbnail" alt="" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/shW9i6k8cB0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLB-fhA2rz8dfz5TJ50l2Pb5Hd8Ogw">
+          <div class="video-time">2:50</div>
+            </div>
+            <!--the grid aligns the vertical or horizontal structure for "divs"-->
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic" draggable="false" alt="" width="24" src="https://yt3.ggpht.com/S4VWNJnJF_21DlC_tXhDYg6jyr4E9tJMlwn6kx49HPrh8uqNnQ3vZrIoDaaW2irhhsb-lTFQKA=s68-c-k-c0x00ffffff-no-rj">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              spiderman across the spiderverse "movie trailer"
+            </p>
+             
+            <p class="video-author">
+              Sony Picture Entertainment
+            </p>
+          
+            <p class="video-stats">
+              49M views &#183; 4 months ago
+            </p>
+          </div>
+        </div>
+      </a>
+        </div>
+      
+      
+        <div class="video-preview">
+          
+          <a href="https://youtu.be/S1192mB_1bk?si=9uQSojMnMwlWPN1R">
+          <div class="thumbnail-row">
+          <img class="thumbnail" alt="" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/S1192mB_1bk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDvLnOZEDIUp82aXR51fwTo2Bn_6A">
+          <div class="video-time">20:13</div>
+            </div>
+            
+            <div class="video-info-grid" >
+          <div class="channel-pic">
+            <img class="profile-pic" draggable="false" class="style-scope yt-img-shadow" alt="" width="24" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mN8XA8AAksBZG7LpHYAAAAASUVORK5CYII=">
+          </div>
+          
+          <div class="video-info">
+            <p class="video-title">
+             Top 20 Demon Slayer Fights
+            </p>
+             
+            <p class="video-author">
+              Watchmojo.com
+            </p>
+          
+            <p class="video-stats">
+              266k views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+        </a>
+        </div>
+      
+        <div class="video-preview">
+          
+          <a href="https://youtu.be/QdHQseDEoBE?si=xnt6rKbh7IlFiUDq">
+          <div class="thumbnail-row">
+          <img class="thumbnail" alt="" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/QdHQseDEoBE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLC7g6eaWCm_z4mjSveMOB012orcHA">
+          <div class="video-time">19:10</div>
+            </div>
+            <!--the grid aligns the vertical or horizontal structure for "divs"-->
+        <div class="video-info-grid">
+          <div class="channel-pic">
+            <img class="profile-pic"  draggable="false" class="style-scope yt-img-shadow" alt="" width="24" src="https://yt3.ggpht.com/ytc/AOPolaSBLGN39TsA97jRweRI1BxRJjey6JYmm-b7zo0nMA=s68-c-k-c0x00ffffff-no-rj">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Top 10 Black Clover Fight Scenes (Episodes 101-170)
+            </p>
+             
+            <p class="video-author">
+              Crunchyroll collection
+            </p>
+          
+            <p class="video-stats">
+              270k views &#183;2 years ago
+            </p>
+          </div>
+        </div>
+        </a>
+        </div>
+      
+      
+        <div class="video-preview">
+          
+          <a href="https://youtu.be/8w_kHIAkucA?si=n23wV4Zkm1uL5IqQ">
+          <div class="thumbnail-row">
+          <img class="thumbnail" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/8w_kHIAkucA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLDZnrsQlq2laT3uDDSduBqim3prVQ">
+          <div class="video-time">11:00</div>
+            </div>
+            
+            <div class="video-info-grid" >
+          <div class="channel-pic">
+            <img class="profile-pic" draggable="false" class="style-scope yt-img-shadow" alt="" width="24" src="https://yt3.ggpht.com/ytc/AOPolaTZC4i84tO42cAaFb-gNa8622MTeQ8eFrrExjDZ1w=s68-c-k-c0x00ffffff-no-rj">
+          </div>
+          
+          <div class="video-info">
+            <p class="video-title">
+             Build a Responsive website from scratch with HTML & CSS part 1: Navigation
+            </p>
+             
+            <p class="video-author">
+              Coder Coder
+            </p>
+          
+            <p class="video-stats">
+              470k views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+        </a>
+        </div>
+    
+    
+        <div class="video-preview">
+          <a href="https://youtu.be/CLkxRnRQtDE?si=JQx8tNCq4Wjf315i">
+          <div class="thumbnail-row">
+          <img class="thumbnail" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/CLkxRnRQtDE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBSmGQb1MhHo0B4r_492VHGq1TgKg">
+          <div class="video-time">1:37:11</div>
+            </div>
+            
+            <div class="video-info-grid" >
+          <div class="channel-pic">
+            <img class="profile-pic"  draggable="false" class="style-scope yt-img-shadow" alt="" width="24" src="https://yt3.ggpht.com/ikv41jMTr1uHGdILrJhvbfVJcDt4oqhwApKX37TjAleF_cRPbF2W-waj7uMnS5JySvnlvAlTCg=s68-c-k-c0x00ffffff-no-rj">
+          </div>
+          
+          <div class="video-info">
+            <p class="video-title">
+             Tailwind Connect 2023-Keynot
+            </p>
+             
+            <p class="video-author">
+              Tailwind Labs
+            </p>
+          
+            <p class="video-stats">
+              237k views &#183; 1 month ago
+            </p>
+          </div>
+        </div>
+        </a>
+        </div>
+    
+        <div class="video-preview">
+          
+          <a href="https://youtu.be/EvwvHrtL1xY?si=pqRarJ15NHI10g1f">
+          <div class="thumbnail-row">
+          <img class="thumbnail" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/EvwvHrtL1xY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBzuH59wHg_Icb5fI0Oe2lwzXnlng">
+          <div class="video-time">2:10</div>
+            </div>
+            
+            <div class="video-info-grid" >
+          <div class="channel-pic">
+            <img class="profile-pic" draggable="false" class="style-scope yt-img-shadow" alt="" width="24" src="https://yt3.ggpht.com/ytc/AOPolaSbaST1JBNd9phht_n7tFN-VHx0FlvKPHeSDnmu4Q=s68-c-k-c0x00ffffff-no-rj">
+          </div>
+          
+          <div class="video-info">
+            <p class="video-title">
+             YOU: Season 4 Part 2-Official Trailer-Netflix
+            </p>
+             
+            <p class="video-author">
+              Netflix
+            </p>
+          
+            <p class="video-stats">
+              1.5M views &#183; 6 month ago
+            </p>
+          </div>
+        </div>
+        </a>
+        </div>
+    
+        <div class="video-preview">
+          
+          <a href="https://youtu.be/rjdtGw_SJ2Y?si=8hm5eyWW88a7sK9b">
+          <div class="thumbnail-row">
+          <img class="thumbnail" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/rjdtGw_SJ2Y/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLBNR6MWLJbMaJ_ypnFvbgR-B_OqBg">
+          <div class="video-time">1:37</div>
+            </div>
+            
+            <div class="video-info-grid" >
+          <div class="channel-pic">
+            <img class="profile-pic"  draggable="false" class="style-scope yt-img-shadow" alt="" width="24" src="https://yt3.ggpht.com/ytc/AOPolaT9NzpthKhEWtdFZD0SQxEnmKCK709cLkpAL5lL=s68-c-k-c0x00ffffff-no-rj">
+          </div>
+          
+          <div class="video-info">
+            <p class="video-title">
+             Stranger Things 5 Casting Announcement-Netflix
+            </p>
+             
+            <p class="video-author">
+              Stranger Things
+            </p>
+          
+            <p class="video-stats">
+              3.3M views &#183; 2 months ago
+            </p>
+          </div>
+        </div>
+        </a>
+        </div>
+
+         <div class="video-preview">
+          
+          <a href="https://youtu.be/p_bH42OiUo4?si=TlotvurQGl5z7tBQ">
+          <div class="thumbnail-row">
+          <img class="thumbnail" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/p_bH42OiUo4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLA7tGueHbD-u_Xc6KfybhDf_uWgbg">
+          <div class="video-time">0:49</div>
+            </div>
+            
+            <div class="video-info-grid" >
+          <div class="channel-pic">
+            <img class="profile-pic"  draggable="false" class="style-scope yt-img-shadow" alt="" width="24" src="https://yt3.ggpht.com/KIq94K1ZMmnxu14wvGRBQpALqFRe8t7Li8ki-MMzN8tjUzyH07Cwi8IgT-eVUX7Q20pPcKrJwQ=s68-c-k-c0x00ffffff-no-rj">
+          </div>
+          
+          <div class="video-info">
+            <p class="video-title">
+             Rick and Morty x PlayStation-God of War Ragnarock
+            </p>
+             
+            <p class="video-author">
+              Stranger Things
+            </p>
+          
+            <p class="video-stats">
+              5M views &#183; 11 months ago
+            </p>
+          </div>
+        </div>
+        </a>
+        </div>
+    
+      </section>
+    
+    </main>
+ 
+</body>
+</html>
